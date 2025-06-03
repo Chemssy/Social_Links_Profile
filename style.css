@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: hsl(0, 0%, 8%);
+}
+
+main{
+    font-size: 1em;
+    background-color: hsl(0, 0%, 12%);
+    max-width: 27.5em;
+    margin: 5em auto;
+    border-radius: 1.25rem;
+
+}
+
+.content{
+    font-size: 1em ;
+    max-width: 34.375em;
+    margin: 1.25em auto;
+    padding: 1.875em 0rem;
+
+}
+
+.content_image{
+    font-size: 1em;
+    max-width: 6.25em;
+    margin: 0.3125em auto;
+}
+
+img{
+    font-size: 1em;
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+
+.content_presentation{
+    font-size: 1em;
+    margin: 0em auto;
+    text-align: center;
+    padding-bottom: 0.25em;
+}
+
+.content_title{
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 0.375em;
+}
+
+.content_title+p{
+    font-size: 1em;
+    color: hsl(75, 94%, 57%);
+    margin-top: 0.5em;
+}
+
+p{
+    font-size: 1em;
+    color: #ccc;
+    margin:0em;
+    margin-top: 1.5em;
+    margin-bottom: 0.75em;
+}
+
+.technology{
+    font-size: 1em;
+    text-align: center;
+    margin: 1em 0em;
+    display: flex;
+    justify-content: center;
+}
+
+.technology_item{
+    font-size: 1em;
+    padding: 0.75em 1em;
+    width: 21.25em;
+    border-radius: 0.5em;
+    background-color: hsl(0, 0%, 20%);
+    color: #fff;
+    border: none;
+}
+
+.technology_item:hover{
+    background-color: hsl(75, 94%, 57%);
+    cursor:pointer;
+    color: #000; 
+}
+
+
+@media screen and (max-width:430px) {
+    body{
+        font-size: 12.5px;
+    }
+}
